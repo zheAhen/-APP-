@@ -1,0 +1,46 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>问卷调查</title>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">  
+    <style>  
+        .qrcode-container {  
+            text-align: center;  
+            padding: 20px;  
+        }  
+        .qrcode-container img {  
+            max-width: 100%;  
+            height: auto;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="container">  
+        <div class="row">  
+            <div class="col-md-12 text-center">  
+                <h1>欢迎参加我们的问卷调查</h1>  
+                <p>请扫描以下二维码参与调查：</p>  
+            </div>  
+        </div>  
+        <div class="row qrcode-container">  
+            <div class="col-md-12">  
+                <!-- 替换下面的src属性为你的二维码图片链接 -->  
+                <img src="qrcode.png" alt="问卷二维码" height=400 px>  
+            </div>  
+        </div>  
+        <div class="row">  
+            <div class="col-md-12 text-center">  
+                <p>如果您无法扫描二维码，请点击<a href="https://example.com/your-survey-link">这里</a>参与调查。</p>  
+                <p>如有任何问题，请联系我们的客服团队。</p>  
+            </div>  
+        </div>  
+    </div>  
+  
+    <!-- 引入Bootstrap的JavaScript和依赖的Popper.js和jQuery -->  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>
